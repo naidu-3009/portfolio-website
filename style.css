@@ -1,0 +1,362 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header,a{
+            color: white;
+            text-decoration: none;
+            font-size: normal;
+            /* display: flex; */
+            background-color: #6E07F3;
+            height: 120px;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+        }
+        header,.navbar,#nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 70px;
+        }
+
+        img {
+            height: 50vh;
+            width: 25vw;
+            margin-left: 525px;
+            margin-top: 50px;
+            border-radius: 50%;
+        }
+
+        .me {
+            font-weight: bolder;
+            font-size: 15px;
+            height: 100px;
+            width: 450px;
+            border-radius: 30%;
+            background-color: rgba(67, 97, 238, 0.3);
+            margin-left: 480px;
+            margin-top: 20px;
+            padding: 20px 8px 40px 5px;
+            text-align: center;
+        }
+
+        #eduhead {
+            font-size: 40px;
+            font-weight: bold;
+            display: block;
+            height: 50px;
+            width: 200px;
+            background-color: bbbdf6;
+            border-radius: 25%;
+            margin: 60px 0px 0px 41vw;
+            padding: 0px 30px 0px 30px;
+        }
+
+        .edulin {
+            background-color: black;
+            width: 80vw;
+            height: 4px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            border-radius: 50%;
+        }
+
+        .top1 {
+            margin-top: 70px;
+            gap: 30px;
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+        }
+
+        .ssc {
+            font-size: 13px;
+            font-weight: lighter;
+            height: 60px;
+            width: 400px;
+            background-color: #9893da;
+            border-radius: 25%;
+            padding: 25px 10px 25px 10px;
+        }
+
+        .mpc {
+            font-size: 12px;
+            font-weight: lighter;
+            height: 60px;
+            width: 430px;
+            background-color: #9893da;
+            border-radius: 25%;
+            padding: 25px 10px 25px 10px;
+            margin-left: 450px;
+            text-align: center;
+        }
+
+        .grad {
+            font-size: 13px;
+            font-weight: lighter;
+            height: 70px;
+            width: 400px;
+            background-color: #9893da;
+            border-radius: 25%;
+            padding: 20px 25px 20px 25px;
+        }
+
+        .skillin {
+            background-color: black;
+            width: 80vw;
+            height: 4px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            border-radius: 50%;
+        }
+
+        #skilhead {
+            font-size: 40px;
+            display: block;
+            height: 50px;
+            width: 110px;
+            /* background-color: #625f63 ; */
+            border-radius: 25%;
+            padding-left: 30px;
+            margin-top: 60px;
+            margin-left: 550px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+        }
+
+        .paina {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 120px;
+        }
+
+        #p,
+        #q,
+        #r,
+        #s {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: #ef7a85;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #t,
+        #u,
+        #v {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: #caff8a;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bot {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #prohead {
+            font-size: 40px;
+            display: block;
+            height: 50px;
+            width: 110px;
+            background-color: c879ff;
+            border-radius: 25%;
+            padding-left: 30px;
+            margin-top: 60px;
+            margin-left: 550px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+        }
+
+        .pro {
+            color: white;
+            height: 300px;
+            width: 80vw;
+            background-image: url(arduino-5170681_640.jpg);
+            background-size: cover;
+            opacity: 1;
+            border-radius: 25%;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 10vw;
+            margin-top: 70px;
+            margin-bottom: 100px;
+            text-decoration: none;
+        }
+
+        li {
+            font-weight: bold;
+            list-style: none;
+        }
+
+        #poshead {
+            font-size: 40px;
+            font-weight: bold;
+            display: block;
+            height: 60px;
+            width: 525px;
+            margin: 60px 0px 0px 410px;
+            padding: 0px 30px 10px 30px;
+        }
+
+        .postop {
+            margin-top: 40px;
+            display: flex;
+            gap: 250px;
+        }
+
+        .illu {
+            height: 187px;
+            width: 350px;
+            font-size: 12px;
+            text-align: center;
+            background-color: #4CC9F0;
+            padding: 15px 15px 10px 15px;
+            border-radius: 25%;
+            margin-left: 90px;
+        }
+
+        .electra {
+            height: 180px;
+            width: 320px;
+            font-size: 12px;
+            text-align: center;
+            background-color: #4CC9F0;
+            padding: 22px 15px 10px 15px;
+            border-radius: 25%;
+        }
+
+        .vlinesset1 {
+            display: flex;
+            gap: 625px;
+
+        }
+
+        .vline1 {
+            height: 90px;
+            width: 2px;
+            background-color: black;
+            margin-left: 270px;
+        }
+
+        .vline3 {
+            height: 90px;
+            width: 2px;
+            background-color: rgb(10, 10, 10);
+        }
+
+        .hline {
+            background-color: black;
+            width: 85vw;
+            height: 2px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            border-radius: 60%;
+        }
+
+        .vlinesset2 {
+            display: flex;
+            gap: 600px;
+
+        }
+
+        .vline2 {
+            height: 90px;
+            width: 2px;
+            background-color: black;
+            margin-left: 520px;
+        }
+
+        .vline4 {
+            height: 90px;
+            width: 2px;
+            background-color: rgb(10, 10, 10);
+        }
+
+        .posbottom {
+            display: flex;
+            gap: 220px;
+        }
+
+        .ecell {
+            height: 100px;
+            width: 350px;
+            font-size: 12px;
+            text-align: center;
+            background-color: #4CC9F0;
+            padding: 20px;
+            border-radius: 25%;
+            margin-left: 330px;
+        }
+
+        .incand {
+            height: 160px;
+            width: 320px;
+            font-size: 12px;
+            text-align: center;
+            background-color: #4CC9F0;
+            padding: 33px 22px 27px 22px;
+            border-radius: 25%;
+        }
+
+        #hnahead {
+            font-size: 40px;
+            font-weight: bold;
+            display: block;
+            height: 60px;
+            width: 525px;
+            margin: 60px 0px 0px 430px;
+            padding: 0px 30px 10px 30px;
+        }
+
+        .hnacontent{
+            background-color: #caff8a;
+            height: 200px;
+            width: 1000px;
+            margin-left: 160px;
+            margin-top: 25px;
+            margin-bottom: 100px;
+            border-radius: 10%;
+            padding-left: 0px;
+            padding-top: 25px;
+            padding-right: 0px;
+            padding-bottom: 25px;
+        }
+        .inside{
+            font-size:18px;
+            font-weight: normal;
+            line-height: 50px;
+            width: 850px;
+            /* background-color: blanchedalmond; */
+            padding-right: 0px;
+            margin-left: 50px;
+        }
+        footer {
+            color: white;
+            font-size: larger;
+            background-color: #6E07F3;
+            height: 40px;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
