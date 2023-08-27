@@ -14,27 +14,23 @@
 
 <body>
     <header>
-        <div class="navbar">
-            <ul id="nav">
-                <li><a href="./Nishanth Naidu Talari_NIT_Silchar.pdf" download id="download">Download Resume</a></li>
-                <li><a href="#me">About Me</a></li>
-                <li><a href="#edu">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#volun">Volunteer Experience</a></li>
-                <li><a href="#honour">Honors and Awards</a></li>
-            </ul>
-        </div>
+        <a href="./Nishanth Naidu Talari_NIT_Silchar.pdf" download id="download">Download Resume</a>
+        <a href="#me">About Me</a>
+        <a href="#edu">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#volun">Volunteer Experience</a>
+        <a href="#honour">Honors and Awards</a>
     </header>
 
     <main>
-        <div id="me"></div>
-        <img src="./PHOTO(GOOD) (cropppped).jpg">
-        <div class="me">
+        <img id="myimg" src="./PHOTO(GOOD) (cropppped).jpg">
+        <div id="me">
             <p>Hi There!<br />I'm Nishanth Naidu Talari,Pre-final year student <br />at National Institute of
                 Technology,Silchar <br /> I'm a front end web developer,student and learner<br /> who is always curious
                 to learn new technologies </p>
         </div>
+
         <div id="edu"></div>
         <div id="eduhead">Education</div>
         <div class="top1">
@@ -49,50 +45,70 @@
         </div>
 
         <div class="edulin"></div>
-
         <div class="mpc">
             <h2>Sri Chaitanya Junior College,Kurnool
                 <n2 />
                 <h4>MPC-Percentage-93.7%</h4>
         </div>
 
-
-        <!-- SKILLS -->
         <div id="skills"></div>
         <h1 id="skilhead">Skills</h1>
         <div class="paina">
             <h3 id="p">C++</h3>
             <h3 id="q">CSS</h3>
-            <h3 id="r">Web</h3>
+            <h3 id="r">JavaScript<br/>(Basic)</h3>
             <h3 id="s">Arduino</h3>
         </div>
+
         <div class="skillin"></div>
+
         <div class="bot">
             <h3 id="t">HTML</h3>
             <h3 id="u">C</h3>
             <h3 id="v">Windows</h3>
         </div>
+
+
         <div id="projects"></div>
         <h1 id="prohead">Projects</h1>
+
         <div class="pro">
-            <h2>Made a self Fighting robot based on ARDUINO Technology</h2>
-            <ul>
-                <li>Developed a robot which can defend itself and attacks another robot</li>
-                <li>Used infrared and ultrasound sensors which detects the motion and direction of the Opposite robot
-                </li>
-                <li>Simulated the Robot using ARDUINO technology to give directions to the robot based on the inputs
-                    given by the
-                    both infrared and ultrasound sensors</li>
-            </ul>
+            <div class="qr">
+                <h2>QR-Code Generator</h2>
+                <ul id="qrul">
+                    <li>Developed a wesite which converts the entered text(or) url into a QR code</li>
+                    <li>Used HTML5 CSS3 and JavaScript for building this site</li>
+                    <li id="pl"><a href="https://github.com/naidu-3009/QR-code-generator">Project Link on GitHub</a></li>
+                </ul>
+            </div>
+            <div class="net">
+                <h2>Made a clone of the NETFLIX home page</h2>
+                <ul id="netul">
+                    <li>Made an exact lookalike of Netflix homepage</li>
+                    <li>Used HTML5,CSS3 for buliding this page</li>
+                    <li><a href="https://github.com/naidu-3009/Netflix-clone">Project link on GitHub</a></li>
+                </ul>
+            </div>
+
+            <div class="ard">
+                <h2>Made a self Fighting robot using ARDUINO Technology</h2>
+                <ul id="ardul">
+                    <li>Developed a robot which can defend itself and attacks another robot</li>
+                    <li>Used infrared and ultrasound sensors which detects the motion and direction of the Opposite
+                        robot
+                    </li>
+                    <li>Simulated the Robot using ARDUINO technology to give directions to the robot based on the inputs
+                        given by the
+                        both infrared and ultrasound sensors</li>
+                </ul>
+            </div>
         </div>
-
-
-        <!-- Position of Responsibilty -->
         <div id="volun"></div>
         <h1 id="poshead">Positions of Responsibilty</h1>
+
         <div class="postop">
             <div class="illu">
-                <h2>Senior Executive Member in Literary,Publication and Fine Arts Society,NIT Silchar</h2>
+                <h2>Vocal Skills Club Head in ILLUMINITS,Literary,Publication and Fine Arts Society,NIT Silchar</h2>
                 <h3>Led and organised various literary events which includes extempores and debates</h3>
                 <h3>Learned about various kinds of literature and explored some poetry</h3>
             </div>
@@ -123,9 +139,10 @@
         </div>
 
 
-
         <div id="honour"></div>
         <h1 id="hnahead">Honours and Awards</h1>
+
+
         <div class="hnacontent">
             <div class="inside">
                 <ul>
@@ -136,26 +153,21 @@
                 </ul>
             </div>
         </div>
-
     </main>
+
     <footer>
         <a href="./Nishanth Naidu Talari_NIT_Silchar.pdf" download id="footerresume">Download Resume</a>
-                  
-          <a href="https://www.linkedin.com/in/nishanth-naidu-talari-133742223/"  id="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-          </svg></a>
-          
-          <a href="https://github.com/naidu-3009" id="git"><i class="fa fa-github" style="font-size:28px"></i></a>
-          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 193"><path fill="#4285F4" d="M58.182 192.05V93.14L27.507 65.077L0 49.504v125.091c0 9.658 7.825 17.455 17.455 17.455h40.727Z"/><path fill="#34A853" d="M197.818 192.05h40.727c9.659 0 17.455-7.826 17.455-17.455V49.505l-31.156 17.837l-27.026 25.798v98.91Z"/><path fill="#EA4335" d="m58.182 93.14l-4.174-38.647l4.174-36.989L128 69.868l69.818-52.364l4.669 34.992l-4.669 40.644L128 145.504z"/><path fill="#FBBC04" d="M197.818 17.504V93.14L256 49.504V26.231c0-21.585-24.64-33.89-41.89-20.945l-16.292 12.218Z"/><path fill="#C5221F" d="m0 49.504l26.759 20.07L58.182 93.14V17.504L41.89 5.286C24.61-7.66 0 4.646 0 26.23v23.273Z"/></svg> -->
-          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="256" height="193" viewBox="0 0 256 193"><path fill="#4285F4" d="M58.182 192.05V93.14L27.507 65.077L0 49.504v125.091c0 9.658 7.825 17.455 17.455 17.455h40.727Z"/><path fill="#34A853" d="M197.818 192.05h40.727c9.659 0 17.455-7.826 17.455-17.455V49.505l-31.156 17.837l-27.026 25.798v98.91Z"/><path fill="#EA4335" d="m58.182 93.14l-4.174-38.647l4.174-36.989L128 69.868l69.818-52.364l4.669 34.992l-4.669 40.644L128 145.504z"/><path fill="#FBBC04" d="M197.818 17.504V93.14L256 49.504V26.231c0-21.585-24.64-33.89-41.89-20.945l-16.292 12.218Z"/><path fill="#C5221F" d="m0 49.504l26.759 20.07L58.182 93.14V17.504L41.89 5.286C24.61-7.66 0 4.646 0 26.23v23.273Z"/></svg> -->
-          
-            
-          <a  id="call"  href="tel:+91-8074778832"><i class="fa fa-phone" style="font-size:24px"></i></a>
-          <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=talarinishanth3009@gmail.com.com&tf=1
+        <a href="https://www.linkedin.com/in/nishanth-naidu-talari-133742223/" id="linkedin"><svg
+                xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+            </svg></a>
+        <a href="https://github.com/naidu-3009" id="git"><i class="fa fa-github" style="font-size:28px"></i></a>
+        <a id="call" href="tel:+91-8074778832"><i class="fa fa-phone" style="font-size:24px"></i></a>
+        <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=talarinishanth3009@gmail.com.com&tf=1
           " id="mail"><i class="fa fa-envelope" style="font-size:26px"></i></a>
-          <!-- <p>Thanks for visiting &#10084</p> -->
     </footer>
-
 </body>
 
 </html>
